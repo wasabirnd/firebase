@@ -1,0 +1,11 @@
+<div class="techs-container">
+  <h2 class="techs-h2">
+    Cooked with all these awesome technologies: <a href="#" ng-click="sendMessage()">dsdsds</a>
+  </h2>
+  <div class="techs">
+  	<h1></h1>
+	<input type="text" ng-model="$ctrl.messages">
+	<a ng-click="$ctrl.sendMessage()" style="color: red">send</a>
+    <fountain-tech ng-repeat="tech in $ctrl.messages" tech="tech"></fountain-tech>
+  </div>
+</div>
